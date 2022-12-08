@@ -15,7 +15,7 @@ main {
     width: 100%;
     height: 100vh;
 
-    background-image: url('image/bg.jpg');
+    background-image: url('https://github.com/joao-rod/imc/blob/main/image/bg.jpg');
     background-size: 35%;
 }
 
