@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <h1 class="title">Calculadora de IMC</h1>
+                <hr class="line">
+
+                <div>
+                    <h2 class="title subtitle">Preecha com seus os dados</h2>
+                    
+                    <div class="input">                
+                        <label for="altura">Altura</label>
+                        <input id="altura" name="altura" type="text" placeholder="Insira aqui o valor">                    
+                    </div>
+    
+                    <div class="input">                
+                        <label for="peso">Peso</label>
+                        <input id="peso" name="peso" type="text" placeholder="Insira aqui o valor">                    
+                    </div>
+    
+                    <div class='button'>
+                        <input type="button" value="Obter IMC" onclick="calcImc('altura', 'peso')">
+                    </div>
+                </div>
+
+            </div> 
+        </main>
+    </body>
+</html>
